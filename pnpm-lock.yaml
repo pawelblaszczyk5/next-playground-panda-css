@@ -1055,6 +1055,8 @@ packages:
     dependencies:
       '@pandacss/error': 0.3.1
       '@pandacss/logger': 0.3.1
+      '@pandacss/preset-base': 0.3.1
+      '@pandacss/preset-panda': 0.3.1
       '@pandacss/types': 0.3.1
       bundle-n-require: 1.0.1
       escalade: 3.1.1
@@ -1229,6 +1231,12 @@ packages:
     transitivePeerDependencies:
       - jsdom
       - typescript
+    dev: true
+
+  /@pandacss/preset-base@0.3.1:
+    resolution: {integrity: sha512-DXmYo6R3Z4T11YCjdd1Czr1RE/PuKVK1SxWmT3OWQljaMgrK9lqrvFQ2ZRl0K0hCiUOYz94wu0r5MK+M4ENJmA==}
+    dependencies:
+      '@pandacss/types': 0.3.1
     dev: true
 
   /@pandacss/preset-panda@0.3.1:
