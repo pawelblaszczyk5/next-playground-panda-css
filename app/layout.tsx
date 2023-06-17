@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 
 import "~/app/global.css";
 import { css } from "~/styled-system/css";
-import { circle } from "~/styled-system/patterns";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
