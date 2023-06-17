@@ -2,3 +2,7 @@ node_modules
 .next
 next-env.d.ts
 pnpm-lock.yaml
+
+# Panda
+styled-system
+styled-system-static

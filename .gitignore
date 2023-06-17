@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+# Panda
+styled-system
+styled-system-static
+
 # production
 /build
 

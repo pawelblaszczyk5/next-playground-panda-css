@@ -274,7 +274,7 @@ module.exports = {
 		"plugin:perfectionist/recommended-natural",
 		"prettier",
 	],
-	ignorePatterns: ["node_modules/", "next-env.d.ts"],
+	ignorePatterns: ["node_modules/", "next-env.d.ts", "styled-system/", "styled-system-static"],
 	overrides: [
 		{
 			files: ["*.ts", "*.tsx", "*.js", "*.cjs"],
