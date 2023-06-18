@@ -1,5 +1,7 @@
 import { defineConfig } from "@pandacss/dev";
 
+import { customPreset } from "~/theme/preset";
+
 export default defineConfig({
 	exclude: [],
 	include: ["./components/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}"],
@@ -7,25 +9,6 @@ export default defineConfig({
 	jsxFramework: "react",
 	outdir: "styled-system",
 	preflight: true,
+	presets: [customPreset()],
 	strictTokens: true,
-	theme: {
-		recipes: {},
-		tokens: {
-			colors: {
-				test: {
-					value: "#222",
-				},
-			},
-			fonts: {
-				body: {
-					value: "var(--font-inter), var(--font-fallback)",
-				},
-			},
-			spacing: {
-				xs: {
-					value: "2rem",
-				},
-			},
-		},
-	},
 });

@@ -1,0 +1,28 @@
+diff --git a/dist/index.js b/dist/index.js
+index c3e00c876bcde646f060be8461a96619f693fc3a..4ea73883f144996280d4554d7bf7590ec60f0546 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -296,8 +296,8 @@ async function loadConfigFile(options) {
+ }
+ async function resolveConfigFile(result, cwd) {
+   const presets = /* @__PURE__ */ new Set();
+-  presets.add(import_preset_base.preset);
+   if (!result.config.presets) {
++  presets.add(import_preset_base.preset);
+     presets.add(import_preset_panda.preset);
+   } else {
+     result.config.presets.forEach((preset) => {
+diff --git a/dist/index.mjs b/dist/index.mjs
+index 08c08068ead3f6605f9238c95264dfb3a9bbe904..7f89648f58f0f7b5c3a2b616721bac9599c75bb9 100644
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -254,8 +254,8 @@ async function loadConfigFile(options) {
+ }
+ async function resolveConfigFile(result, cwd) {
+   const presets = /* @__PURE__ */ new Set();
+-  presets.add(presetBase);
+   if (!result.config.presets) {
++  presets.add(presetBase);
+     presets.add(presetPanda);
+   } else {
+     result.config.presets.forEach((preset) => {

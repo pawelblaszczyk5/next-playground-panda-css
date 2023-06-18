@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@pandacss/config@0.3.1':
+    hash: m72wp35jb7ghkmfobr2wj4244q
+    path: patches/@pandacss__config@0.3.1.patch
+
 dependencies:
   next:
     specifier: 13.4.5
@@ -22,6 +27,9 @@ devDependencies:
   '@pandacss/dev':
     specifier: ^0.3.1
     version: 0.3.1(@types/node@20.3.1)(@types/react-dom@18.2.5)(@types/react@18.2.12)(astro@2.6.4)(typescript@5.1.3)
+  '@pandacss/preset-base':
+    specifier: ^0.3.1
+    version: 0.3.1
   '@total-typescript/ts-reset':
     specifier: ^0.4.2
     version: 0.4.2
@@ -1050,7 +1058,7 @@ packages:
       - typescript
     dev: true
 
-  /@pandacss/config@0.3.1(typescript@5.1.3):
+  /@pandacss/config@0.3.1(patch_hash=m72wp35jb7ghkmfobr2wj4244q)(typescript@5.1.3):
     resolution: {integrity: sha512-neW7VYWkDjJlVZnRCOmovPg8ScqEWtpcs9RURz2eyjwEgQYm6rS0h36oF1YFCf+VrmlNiMLtvUTguKtCRaVhPA==}
     dependencies:
       '@pandacss/error': 0.3.1
@@ -1069,6 +1077,7 @@ packages:
     bundledDependencies:
       - '@pandacss/preset-base'
       - '@pandacss/preset-panda'
+    patched: true
 
   /@pandacss/core@0.3.1:
     resolution: {integrity: sha512-FgtIoD5oJ6BrqYVd3KfKjkzFrSlqd1sED4CBwBZbsUbWxfaRBnM3OIs0/2giqwlcpKEnqR2QQvR127GUz23g4Q==}
@@ -1097,7 +1106,7 @@ packages:
     hasBin: true
     dependencies:
       '@pandacss/astro': 0.3.1(astro@2.6.4)(typescript@5.1.3)
-      '@pandacss/config': 0.3.1(typescript@5.1.3)
+      '@pandacss/config': 0.3.1(patch_hash=m72wp35jb7ghkmfobr2wj4244q)(typescript@5.1.3)
       '@pandacss/error': 0.3.1
       '@pandacss/logger': 0.3.1
       '@pandacss/node': 0.3.1(typescript@5.1.3)
@@ -1173,7 +1182,7 @@ packages:
   /@pandacss/node@0.3.1(typescript@5.1.3):
     resolution: {integrity: sha512-CZ615VCXuoZZJmJYD7Ly6qiNmNQ2EujEMjtiwBkrRcoGUrBCsaRpgUQR39XC6uzR3JS48jqvPX3//tBI5u/o6g==}
     dependencies:
-      '@pandacss/config': 0.3.1(typescript@5.1.3)
+      '@pandacss/config': 0.3.1(patch_hash=m72wp35jb7ghkmfobr2wj4244q)(typescript@5.1.3)
       '@pandacss/core': 0.3.1
       '@pandacss/error': 0.3.1
       '@pandacss/extractor': 0.3.1(typescript@5.1.3)
@@ -1254,7 +1263,7 @@ packages:
     dependencies:
       '@ark-ui/react': 0.6.0(react-dom@18.2.0)(react@18.2.0)
       '@astrojs/react': 2.2.1(@types/react-dom@18.2.5)(@types/react@18.2.12)(react-dom@18.2.0)(react@18.2.0)
-      '@pandacss/config': 0.3.1(typescript@5.1.3)
+      '@pandacss/config': 0.3.1(patch_hash=m72wp35jb7ghkmfobr2wj4244q)(typescript@5.1.3)
       '@pandacss/logger': 0.3.1
       '@pandacss/node': 0.3.1(typescript@5.1.3)
       '@pandacss/shared': 0.3.1
