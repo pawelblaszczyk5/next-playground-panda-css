@@ -6,8 +6,10 @@ const HomePage = () => (
 			_hoverAvailable: {
 				_hover: {
 					background: "exampleColor",
+					display: "block",
 				},
 			},
+			layerStyle: "exampleLayerStyle",
 		})}
 	>
 		Hello world from PandaCSS
