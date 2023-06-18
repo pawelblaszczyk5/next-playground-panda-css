@@ -4,7 +4,7 @@ import { customPreset } from "~/theme/preset";
 
 export default defineConfig({
 	exclude: [],
-	include: ["./components/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}"],
+	include: ["./components/**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}", "./theme/**/*.{js,jsx,ts,tsx}"],
 	jsxFactory: "styled",
 	jsxFramework: "react",
 	outdir: "styled-system",

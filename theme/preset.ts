@@ -7,12 +7,13 @@ export const customPreset = () => {
 	return definePreset({
 		conditions: {
 			...conditions,
+			hoverAvailable: "@media (hover:hover) and (pointer:fine)",
 		},
 		theme: {
 			tokens: {
 				colors: {
 					exampleColor: {
-						value: "#222",
+						value: "#fff",
 					},
 				},
 				fonts: {
